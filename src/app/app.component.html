@@ -1,0 +1,15 @@
+
+  <h1> Movie Search App</h1>
+  <div class="main">
+  <input type="text" placeholder="Enter the Movie Name" [(ngModel)]="st" >
+  <button (click)="find()" >Search</button>
+  <button style="color:white;background-color:red ;">WatchList : {{c}}</button>
+
+
+<div class="movie" *ngFor="let m of movies">
+  <img src={{m.Poster}} alt = {title}>
+  <h2>{{m.Title}}</h2>
+  <p><strong>{{m.Year}}</strong></p>
+  <button (click)="watchlist()">Add to WatchList</button>
+</div>
+</div>

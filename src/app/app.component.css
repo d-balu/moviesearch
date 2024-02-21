@@ -1,0 +1,35 @@
+h1{
+    font-size: 60px;
+    
+    
+}
+.main{
+   
+    color: white;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+input{
+    font-size: 40px;
+}
+button{
+    font-size: 30px;
+    background-color: black;
+   color: white;
+}
+
+
+.movie {
+    
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+.movie img {
+ height: 100 px;
+ width: 100 px;
+}
+.movie button{
+    background-color: orange;
+}
